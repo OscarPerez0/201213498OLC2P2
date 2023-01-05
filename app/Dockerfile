@@ -18,4 +18,4 @@ RUN git clone https://github.com/OscarPerez0/201213498OLC2P2.git
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT ["streamlit", "run", "./OLC2_ML_201213498/Home.py", "--server.port=8501", "--server.address=0.0.0.0"]
+ENTRYPOINT ["streamlit", "run", "./201213498OLC2P2/app/Home.py", "--server.port=8501", "--server.address=0.0.0.0"]
